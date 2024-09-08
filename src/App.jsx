@@ -22,7 +22,7 @@ export default function App() {
   return (
     <ChakraProvider>
       <NavBar/>
-      <ItemListContainer greeting="me jijeo"/>
+      <ItemListContainer greeting="Hola mundo"/>
       <div style={{fontSize: '4rem', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
         valor del estado: {count}
         <div style={{display: 'flex'}}>
